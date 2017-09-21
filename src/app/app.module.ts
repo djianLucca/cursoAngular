@@ -10,7 +10,7 @@ import { CursosModule } from './cursos/cursos.module';
   declarations: [
     AppComponent,
     MeuPrimeiroComponent,
-    MeuSegundoComponent
+    MeuSegundoComponent,
   ],
   imports: [
     BrowserModule,

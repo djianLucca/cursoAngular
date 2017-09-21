@@ -8,8 +8,11 @@ import { CursoDetalheComponent } from './curso-detalhe/curso-detalhe.component';
     CommonModule
   ],
   exports: [
-    CursosComponent
+    CursosComponent,
   ],
-  declarations: [CursosComponent, CursoDetalheComponent]
+  declarations: [
+    CursosComponent, 
+    CursoDetalheComponent
+  ]
 })
 export class CursosModule { }
